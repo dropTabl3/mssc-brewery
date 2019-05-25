@@ -9,6 +9,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import javax.validation.constraints.Positive;
+import java.time.OffsetDateTime;
 import java.util.UUID;
 
 /**
@@ -27,4 +28,7 @@ public class BeerDtoV2 {
     private BeerStyleEnum beerStyle;
     @Positive
     private Long upc;
+
+    private OffsetDateTime createdDate;
+    private OffsetDateTime lastUpdatedDate;
 }
