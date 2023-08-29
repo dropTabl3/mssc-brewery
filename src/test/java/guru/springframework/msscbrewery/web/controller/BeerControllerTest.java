@@ -68,8 +68,8 @@ public class BeerControllerTest {
         given(beerService.saveNewBeer(any())).willReturn(savedDto);
 
         mockMvc.perform(post("/api/v1/beer/")
-                .contentType(MediaType.APPLICATION_JSON)
-                .content(beerDtoJson))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(beerDtoJson))
                 .andExpect(status().isCreated());
 
     }
@@ -82,11 +82,13 @@ public class BeerControllerTest {
 
         //when
         mockMvc.perform(put("/api/v1/beer/" + validBeer.getId())
-                .contentType(MediaType.APPLICATION_JSON)
-                .content(beerDtoJson))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(beerDtoJson))
                 .andExpect(status().isNoContent());
 
         then(beerService).should().updateBeer(any(), any());
 
     }
+    
+    //TODO test for delete
 }
