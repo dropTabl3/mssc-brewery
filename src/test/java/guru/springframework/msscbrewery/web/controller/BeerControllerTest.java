@@ -89,6 +89,6 @@ public class BeerControllerTest {
         then(beerService).should().updateBeer(any(), any());
 
     }
-    
+
     //TODO test for delete
 }
