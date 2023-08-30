@@ -33,7 +33,7 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public void deleteBeer(UUID beerId) {
+    public void deleteById(UUID beerId) {
         log.debug("beer deleted id: " + beerId);
     }
 }

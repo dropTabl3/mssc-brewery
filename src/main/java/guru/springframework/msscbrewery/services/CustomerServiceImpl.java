@@ -18,12 +18,12 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public void deleteCustomer(UUID customerId) {
+    public void deleteById(UUID customerId) {
         log.debug("beer deleted id: " + customerId);
     }
 
     @Override
-    public void updateBeer(UUID customerId, CustomerDto customerDto) {
+    public void updateCustomer(UUID customerId, CustomerDto customerDto) {
         //TODO real implementation
     }
 
