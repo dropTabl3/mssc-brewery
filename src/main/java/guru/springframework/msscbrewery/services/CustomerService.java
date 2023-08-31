@@ -1,6 +1,6 @@
-package guru.springframework.msscbrewery.services.customer;
+package guru.springframework.msscbrewery.services;
 
-import guru.springframework.msscbrewery.web.model.customer.CustomerDto;
+import guru.springframework.msscbrewery.web.model.CustomerDto;
 
 import java.util.UUID;
 

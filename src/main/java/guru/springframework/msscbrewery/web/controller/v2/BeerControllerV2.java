@@ -1,7 +1,7 @@
-package guru.springframework.msscbrewery.web.controller.beer.v2;
+package guru.springframework.msscbrewery.web.controller.v2;
 
-import guru.springframework.msscbrewery.services.beer.v2.BeerServiceV2;
-import guru.springframework.msscbrewery.web.model.beer.v2.BeerDtoV2;
+import guru.springframework.msscbrewery.services.v2.BeerServiceV2;
+import guru.springframework.msscbrewery.web.model.v2.BeerDtoV2;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

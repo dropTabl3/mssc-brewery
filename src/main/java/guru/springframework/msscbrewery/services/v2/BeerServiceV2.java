@@ -1,6 +1,6 @@
-package guru.springframework.msscbrewery.services.beer.v2;
+package guru.springframework.msscbrewery.services.v2;
 
-import guru.springframework.msscbrewery.web.model.beer.v2.BeerDtoV2;
+import guru.springframework.msscbrewery.web.model.v2.BeerDtoV2;
 
 import java.util.UUID;
 
